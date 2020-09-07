@@ -1,0 +1,14 @@
+{
+  "name": "asu-health-check",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}

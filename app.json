@@ -1,0 +1,23 @@
+{
+  "name": "asu-health-check",
+  "description": "This script automatically submits the daily health check required by ASU.",
+  "repository": "https://github.com/tfich/asu-health-check",
+  "env": {
+    "ASU_ID": {
+      "description": "Your MyASU username.",
+      "value": ""
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": ["advanced-scheduler:trial-0"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
